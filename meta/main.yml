@@ -10,5 +10,5 @@ galaxy_info:
        - "20.04"
        - "22.04"
  galaxy_tags:
-   - apache 
+   - apache_ansible_rol
 dependencies: []
