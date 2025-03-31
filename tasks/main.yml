@@ -1,0 +1,9 @@
+- name: Install Apache
+  apt:
+    name: apache2
+    state: present
+    update_cache: yes
+  become: yes  # Ensure installation runs with root privileges
+  notify: Restart Apache
+
+
